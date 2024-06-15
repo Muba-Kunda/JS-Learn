@@ -43,13 +43,31 @@ str3 = str1 + str2
 // console.log(str3);
 
 // console.log("1" + 2);
+// console.log(typeof ("1" + 2));
 // console.log(1 + "2");
+// console.log(typeof (1 + "2"));
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "2");
 // console.log(1 - 2 + "2");
 
 // console.log(+true);
+// console.log(-true);
+// console.log(+false);
+// console.log(-false);
+// console.log(typeof(-false));
+
 // console.log(+"");
+// console.log(typeof(+""));
+// console.log(+"hi");
+// console.log(typeof(+"hi"));
+// console.log(0 +"hi");
+// console.log(typeof(0 +"hi"));
+
+// console.log(+null);
+// console.log(typeof (+null));
+
+// console.log(+undefined);
+// console.log(typeof (+undefined));
 
 // console.log(2 + 2 * 4 / 2);
 // console.log((2 + 2) * 4 / 2);
