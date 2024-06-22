@@ -17,3 +17,14 @@ let newFlatArr = arr.flat(Infinity)
 
 console.log(arr);
 console.log(newFlatArr);
+
+console.log(Array.isArray("Mubaraka"));
+console.log(Array.from("Mubaraka"));
+console.log(Array.from({name:'muba', age:20}));
+
+console.log(Array.of(1,3,6));
+
+score1 = 5
+score2 = 10
+score3 = 15
+console.log(Array.of(score1, score2, score3));
