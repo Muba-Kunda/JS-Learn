@@ -46,4 +46,6 @@ const addTwo = (num1, num2) => (num1 + num2)
 console.log(addTwo(6,7)); 
 
 const name = () => ({username: "Mubaraka"})
+// const name = () => {username: "Mubaraka"}
+
 console.log(name());
